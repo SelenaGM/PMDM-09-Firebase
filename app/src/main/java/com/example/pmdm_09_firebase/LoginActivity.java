@@ -23,10 +23,10 @@ public class LoginActivity extends AppCompatActivity {
     private EditText txtPassword;
     private Button btnRegister;
     private Button btnLogin;
+    ;
 
     private FirebaseAuth auth;
     private FirebaseUser user;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -90,6 +90,7 @@ public class LoginActivity extends AppCompatActivity {
                         Toast.makeText(LoginActivity.this, e.getLocalizedMessage(), Toast.LENGTH_SHORT).show();
                     }
                 });
+
 
     }
 
